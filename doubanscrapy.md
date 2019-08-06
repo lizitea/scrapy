@@ -1,4 +1,3 @@
-# !/usr/bin/env python
 # -*- coding:utf-8 -*-
 import requests
 import re
@@ -21,3 +20,5 @@ def main(url):
     parse_one_html(html)
 
 items=main('https://movie.douban.com/top250')
+
+
